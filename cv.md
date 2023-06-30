@@ -28,4 +28,12 @@ function findAverage(array) {
 }
 ```
 
+## Education
+* Mogilev State Medical College
+* Udemy courses (in process...)
+
+## Languages
+* **Russian** - native speaker
+* **Belorussian** - native speaker
+* **English** - A2
 
