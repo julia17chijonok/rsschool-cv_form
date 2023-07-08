@@ -4,18 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Julia Chijonok CV</title>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Code Examples</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Languages</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#abot_me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code Examples</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#lang">Languages</a></li>
         </ul>
     </nav>
+    <header>
+        <img src="./img/profile_photo.jpg" alt="avatar photo">
+        <div class="info_block">
+            <h1>Chijonok Julia</h1>
+            <span>Future Front-End Developer</span>
+            <div id="contacts" class="contacts">
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>Phone: +375445658980</li>
+                    <li>E-mail: chijonok.julia17@gmail.com</li>
+                    <li>GitHub: <a href="https://github.com/julia17chijonok" target="_blank">julia17chijonok</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="abot_me" class="about_me">
+            <h2>About Me:</h2>
+            <p>I am 20 years old. Now I work as a pharmacist. But I would like to become a 
+                programmer, because it is interesting for me and gives great opportunities 
+                for career growth. I like the frontend so I decided to learn HTML, CSS and 
+                JavaScript on my own.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2>Skills:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS (SASS/SCSS, BEM)</li>
+                <li>JavaScript</li>
+                <li>Git/GitHub</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+        <section id="code" class="code_ex">
+            <h2>Code Example:</h2>
+            <p>Sample code from
+                 <a href="https://www.codewars.com/users/julia17chijonok/completed" target="_blank">my codewards:</a>
+            </p>
+            <pre>
+                <code>
+                    function findAverage(array) {
+                        if (array.length == 0){
+                              return 0;
+                          }
+                          else {
+                              average = array.reduce((sum, current) => sum + current) / array.length;
+                              return average;
+                          }
+                      }
+                </code>
+            </pre>
+        </section>
+        <section id="edu" class="education">
+            <h2>Education:</h2>
+            <ul>
+                <li>Mogilev State Medical College</li>
+                <li>Udemy courses (in process...)</li>
+            </ul>
+        </section>
+        <section id="lang" class="lang">
+            <h2>Languages:</h2>
+            <ul>
+                <li>Russian - native speaker</li>
+                <li>Belorussian - native speaker</li>
+                <li>English - A2</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <a href="https://rs.school/js/" target="_blank">
+            <img src="./img/rs_school_logo.svg" alt="logotype RS school">
+        </a>
+        <a href="https://github.com/julia17chijonok" target="_blank">
+            <img src="./img/github-mark.svg" alt="GitHub">
+        </a>
+        <span>2023</span>
+    </footer>
 </body>
 </html>
